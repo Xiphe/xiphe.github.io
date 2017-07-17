@@ -20,12 +20,12 @@ Focussing on architectural component design, lean tooling and workflows, cross t
 
 The Jimdo UI Library is a design and development environment and process that successfully reduced
 development time, unified the appearance of the product and played a significant role in a comprehensive redesign mid 2016.
-I envisioned and started this project along with [Fabian Fabian](https://twitter.com/filtercake) and my brother [Lasse Diercks](https://twitter.com/lassediercks) and was lead in technical concepts and implementation.
-Part of the project is visible as the [Jimdo UI Hub](http://jimdo.github.io/ui-library/).
+I was the lead developer for technical concepts such as implementation after I envisioned and started this project along with [Fabian Fabian](https://twitter.com/filtercake) and my brother [Lasse Diercks](https://twitter.com/lassediercks).  
+A part of the project is visible as the [Jimdo UI Hub](http://jimdo.github.io/ui-library/).
 
 <br />
 
-## Modernizing tooling/CD all internal frontend dependencies of Jimdo *(2015-2016)*
+## Modernising tooling/CD all internal frontend dependencies of Jimdo *(2015-2016)*
 
 Moved 20+ frontend modules (OSS and private) from bower, grunt/gulp, manual versioning, testing,
 releasing to a state of the art frontend tooling stack using [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [semantic release](https://github.com/semantic-release/semantic-release), [travis ci](https://travis-ci.org/), ...
@@ -65,11 +65,11 @@ Freelance Javascript Architect
 
 ##### 2008 - present
 
-Continuously improving on everything i’m interested in. (see [Skills](/skills/))
+Continuously improving on everything i’m interested in. (See [Skills](/skills/))
 
 ##### 2014 - 2016
 
-*[jimdo.com](https://www.jimdo.com/)*, Various Product Teams: development, architecture, UX, concept, tooling, workflows, ...
+*[jimdo.com](https://www.jimdo.com/)*, Various Product Teams: Development, architecture, UX, concept, tooling, workflows, ...
 
 ##### 2013 
 
