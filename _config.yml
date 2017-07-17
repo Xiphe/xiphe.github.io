@@ -1,0 +1,19 @@
+title: Hannes Diercks
+email: hi@xiphe.net
+description: > # this means to ignore newlines until "baseurl:"
+  Freelance JavaScript architect, love tooling/automation, know how to agile,
+  strive to improve work culture, ambassador of pattern-thinking,
+  have a design background, pretty good musician
+baseurl: ""
+url: "https://xiphe.github.io/"
+twitter_username: XipheHH
+github_username: Xiphe
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
