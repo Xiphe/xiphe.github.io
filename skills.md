@@ -14,7 +14,7 @@ I use this stuff on a daily basis, so I probably provide the most value when a c
 
 ## Soft and Secondary Skills
 
-I feel most productive in an environment where these techniques are/can be applied and feel comfortable introducing them to teams. *Sorted by relevance.*
+I feel most productive in an environment where these techniques are/ can be applied and feel comfortable introducing them to teams. *Sorted by relevance.*
 
 **Kanban, Retrospectives, GitHub based workflows, Continuous Integration/Delivery, Semantic Versioning, ESLint, npm (packaging, automation), pair programming, Pomodoro, test driven development, ...**
 
@@ -32,6 +32,6 @@ I will give a discount when booked on projects where I can work with these and p
 
 ## Other Skills
 
-I might be rusty, or favour other methods and technologies but still feel productive when using these. *Sorted by experience*
+I might be rusty in – or favour other methods and technologies but still feel productive when using these. *Sorted by experience*
 
 **jQuery, AngularJS (1.x), grunt, gulp, qUnit, PHP, MySQL, JIRA (workflows), ...**
