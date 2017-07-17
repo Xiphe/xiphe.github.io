@@ -1,5 +1,6 @@
 ---
 layout: page
+hide_nav: true
 ---
 
 <img src="/assets/fresse2.jpg" style="float: left; max-width: 30%; padding: 0 5% 0 0" />

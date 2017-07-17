@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Datenschutzerklärung
+hide_nav: true
 permalink: /datenschutz/
 ---
-
-# Datenschutzerklärung:
 
 #### Datenschutz
 

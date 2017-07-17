@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Impressum
+hide_nav: true
 permalink: /impressum/
 ---
-
-# Impressum
 
 #### Angaben gemäß § 5 TMG:
 
