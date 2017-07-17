@@ -25,10 +25,10 @@ A part of the project is visible as the [Jimdo UI Hub](http://jimdo.github.io/ui
 
 <br />
 
-## Modernising tooling/CD all internal frontend dependencies of Jimdo *(2015-2016)*
+## Modernising tooling/CD all internal front-end dependencies of Jimdo *(2015-2016)*
 
-Moved 20+ frontend modules (OSS and private) from bower, grunt/gulp, manual versioning, testing,
-releasing to a state of the art frontend tooling stack using [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [semantic release](https://github.com/semantic-release/semantic-release), [travis ci](https://travis-ci.org/), ...
+Moved 20+ front-end modules (OSS and private) from bower, grunt/gulp, manual versioning, testing,
+releasing to a state of the art front-end tooling stack using [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [semantic release](https://github.com/semantic-release/semantic-release), [travis ci](https://travis-ci.org/), ...
 
 <br />
 
@@ -36,7 +36,7 @@ releasing to a state of the art frontend tooling stack using [npm](https://www.n
 
 ![Example Screenshot of the Jimdo Template Selection](/assets/template-selection.png)
 
-Concept and implementation of the current templating and customisation system. Focussing on frontend architecture, user experience, integration with the legacy system and data-driven development of related systems.
+Concept and implementation of the current templating and customisation system. Focussing on front-end architecture, user experience, integration with the legacy system and data-driven development of related systems.
 
 <br />
 
