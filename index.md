@@ -11,11 +11,13 @@ hide_nav: true
 
 Modern web applications tend to be huge and complex systems, leading to an increasing amount of logic being moved into (web-)clients and nodejs. This is inflicting various new challenges to developers, which I strive to find the best solutions for.
 
-I’m working in, observing and shaping companies that build big web apps for a good 5 years. I’m deeply interested in maintainability, scalability, automation, work culture and team building. Especially in frontend development teams. 
+I’m working in, observing and shaping companies that build big web apps for a good 5 years. I’m deeply interested in maintainability, scalability, automation, work culture and team building. Especially in front-end development teams. 
 
 As a quick learner, I am able to pick up common best practices as well as the latest cutting edge concepts to tailor solutions for the specific problems we are facing. Whether is purely technical in code or more on a team/ company meta-level.
 
-cta
+<br />
+
+<a href="mailto:hi@xiphe.net" style="border: 2px solid #424242; color: #424242; text-decoration: none; padding: 0.5rem 1rem; font-size: 1.2rem; background: transparent;">CONTACT ME</a> – I'm still partly available in Q3 & Q4.
 
 <br />
 <br />
