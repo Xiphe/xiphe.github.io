@@ -6,52 +6,50 @@ permalink: /cv/
 
 Work I'm especially proud of:
 
-### Creation of an interface library for a multi-million user Social-Network 
-
+<br />
 **2017 Q1-2**
+### Creation of an interface library and development environment for a multi-million user Social-Network 
 
-Focussing on architectural component design, lean tooling and workflows, cross team communication and overall code quality.
+My focus was architectural component design, lean tooling and workflows, cross team communication and overall code quality.  
+The tool is now providing the technical fundament for more than four product teams and probably
+will be used by all front-end teams in the near future.
 
 <br />
-### Jimdo UI Library
-
 **2015 - 2016** 
+### Jimdo UI Library
 
 ![Example Screenshot of the UI Library](/assets/ui-library.png)
 
 The Jimdo UI Library is a design and development environment and process that successfully reduced
 development time, unified the appearance of the product and played a significant role in a comprehensive redesign mid 2016.
-I was the lead developer for technical concepts such as implementation after I envisioned and started this project along with [Fabian Fabian](https://twitter.com/filtercake) and my brother [Lasse Diercks](https://twitter.com/lassediercks).  
+I was the lead developer for technical concepts and implementation after I envisioned and started this project along with [Fabian Fabian](https://twitter.com/filtercake) and my brother [Lasse Diercks](https://twitter.com/lassediercks).  
 A part of the project is visible as the [Jimdo UI Hub](http://jimdo.github.io/ui-library/).
 
 <br />
+**2015 - 2016**
 ### Modernising tooling/CD all internal front-end dependencies of Jimdo
 
-**2015 - 2016**
-
-Moved 20+ front-end modules (OSS and private) from bower, grunt/gulp, manual versioning, testing,
+I moved 20+ front-end modules (OSS and private) from bower, grunt/gulp, manual versioning, testing,
 releasing to a state of the art front-end tooling stack using [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [semantic release](https://github.com/semantic-release/semantic-release), [travis ci](https://travis-ci.org/), ...
 
 <br />
-### Jimdo Template Selection and and Customisation
-
 **2014 - 2015** 
+### Jimdo Template Selection and and Customisation
 
 ![Example Screenshot of the Jimdo Template Selection](/assets/template-selection.png)
 
-Concept and implementation of the current templating and customisation system. Focussing on front-end architecture, user experience, integration with the legacy system and data-driven development of related systems.
+Along with one of the best teams I've ever worked with, I've created the current templating and customisation system of Jimdo. Focussing on front-end architecture, front-end tooling, user experience, integration with our legacy stack and data-driven development of related systems.
 
 <br />
-### Converting people to use and utilize commit message formats 
-
 **2014 - present** 
+### Converting people to use and utilize commit message formats 
 
 I'm an ambassador of writing meaningfull commit messages and maintaining a usefull git commit log.
 It not only eases up the work of my fellow developers and future me, it also enables a tremendous amount
 of automatisation and tools.
 
-I've held a talk about that on JS-Unconf 2016. [Here are the slides "stop writing commitMESSages"](https://docs.google.com/presentation/d/1EXXRzbT17rbD7CFXugPZgvgMhsoVE1XXSA7UxBl3iXw/edit?usp=sharing
-)
+I've also held a talk about that on JS-Unconf 2016 – [here are the slides for "stop writing commitMESSages"](https://docs.google.com/presentation/d/1EXXRzbT17rbD7CFXugPZgvgMhsoVE1XXSA7UxBl3iXw/edit?usp=sharing
+).
 
 <br />
 <br />
