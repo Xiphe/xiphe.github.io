@@ -37,4 +37,4 @@ I sing and play a bunch of instruments with my bands [House on a Hill](http://ho
 
 I [write and publish songs](https://open.spotify.com/artist/2eaXfpAkFuTlmu5IsLhxMl) and [make videos to document the process](https://www.youtube.com/channel/UCONYaNqDnjsfxIjkWgd_f8w).
 
-Everything I do, I do in the strong belief that we can make the world a better place through love and peace [![Love and Peace](http://love-and-peace.github.io/love-and-peace/badges/base/v1.0.svg)](https://github.com/love-and-peace/love-and-peace/blob/master/versions/base/v1.0/en.md).
+Everything I do, I do in the strong belief that we can make the world a better place through love and peace [![Love and Peace](https://love-and-peace.github.io/love-and-peace/badges/base/v1.0.svg)](https://github.com/love-and-peace/love-and-peace/blob/master/versions/base/v1.0/en.md).
