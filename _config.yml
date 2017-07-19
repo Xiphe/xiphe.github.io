@@ -8,6 +8,7 @@ baseurl: ""
 url: "https://xiphe.github.io/"
 twitter_username: XipheHH
 github_username: Xiphe
+google_analytics: UA-102817396-1
 
 # Build settings
 markdown: kramdown
