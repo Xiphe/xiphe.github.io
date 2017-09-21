@@ -16,7 +16,7 @@ You're also welcome to bear parts of the costs for this service via [PayPal dona
 
 If you do not have money to spare but still want to support me, I also 
 love [likes on my FaceBook Page](https://www.facebook.com/hannesdiem) or 
-[subscribes to my YouTube channel](https://www.youtube.com/channel/UCONYaNqDnjsfxIjkWgd_f8w)
+[subscribes to my YouTube channel](https://www.youtube.com/channel/UCONYaNqDnjsfxIjkWgd_f8w).
 
 
 You could also buy this guy a beer or a yerba mate when you meet him:
