@@ -9,6 +9,15 @@ hide_nav: true
 
 <br style="clear: both;" />
 
+<h2>Currently I'm creating <a href="https://patternson.io">Patternson</a>, a Component Library Hosting Platform.</h2>
+
+<script src="https://lib.patternson.io/Prisma/v/1.0.6.js" async="true"></script>
+<pr-frame>
+<pr-button baem="true" fullwidth="false" href="mailto:request@patternson.io">Request free alpha Invite</pr-button>
+</pr-frame>
+<br />
+<br />
+
 Nowadays web applications tend to be huge and complex systems, leading to an increasing amount of logic being moved into (web-)clients and nodejs. This is presenting various new challenges to modern web-developers which I strive to find the best solutions for.
 
 I’m working in, observing and shaping companies that build big web apps for the better part of five years. I’m deeply interested in maintainability, scalability, automation, work culture and team building. Especially in front-end development teams.
