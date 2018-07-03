@@ -1,0 +1,14 @@
+title: Hannes Diercks
+email: hi@xiphe.net
+baseurl: ""
+url: "https://xiphe.github.io/"
+twitter_username: XipheHH
+github_username: Xiphe
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
