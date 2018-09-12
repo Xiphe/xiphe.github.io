@@ -61,7 +61,7 @@ I've also held a talk about that at JS Unconf 2016. [Here are the slides for "st
 
 **2017 - present**: 
 
-Freelance Javascript Architect
+Freelance web developer and advisor
 
 **2008 - present**: 
 

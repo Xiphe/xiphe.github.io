@@ -3,43 +3,71 @@ layout: page
 hide_nav: true
 ---
 
-<img src="/assets/fresse2.jpg" style="float: left; max-width: 30%; padding: 0 5% 0 0" />
+<h2 class="home-section" id="expertise">My Expertise</h2>
 
-<h1 style="font-size: 3rem; line-height: 1.2">Hi! My name is Hannes. I’m a freelance JavaScript architect.</h1>
+<div class="grid">
+  <div class="grid-entry">
+    <h3>📱 Frontend</h3>
+    <p>No matter which tech stack <em>(I prefer react-ish, though)</em>, I focus on solid architecture and clear separation of concerns. I deploy fast and refactor often in order to deliver high value products.</p>
+  </div>
 
-<br style="clear: both;" />
+  <div class="grid-entry">
+    <h3>🤖 Automation</h3>
+    <p>Why should we spend time doing stuff a machine could do? I setup continuous integration, automated builds, semantic release, etc. as early as possible to maximize saved time by these tools.</p>
+  </div>
 
-<h2>Currently I'm creating <a href="https://patternson.io">Patternson</a>, a Component Library Hosting Platform.</h2>
+  <div class="grid-entry">
+    <h3>👮‍♀️ QA</h3>
+    <p>With a background in graphic design, I care for visuals and usability. I‘m used to test driven development and have a deep knowledge on browser automation.</p>
+  </div>
 
-<script src="https://lib.patternson.io/Prisma/v/1.0.6.js" async="true"></script>
-<pr-frame>
-<pr-button baem="true" fullwidth="false" href="mailto:request@patternson.io">Request free alpha Invite</pr-button>
-</pr-frame>
-<br />
-<br />
+  <div class="grid-entry">
+    <h3>🚀 Serverless</h3>
+    <p>I’m an early adopter of the serverless methodology. All of my own products and tools (like <a href="https://patternson.io">patternson.io</a>) run on infrastructure that only costs money when something is actively used.</p>
+  </div>
 
-Nowadays web applications tend to be huge and complex systems, leading to an increasing amount of logic being moved into (web-)clients and nodejs. This is presenting various new challenges to modern web-developers which I strive to find the best solutions for.
+  <div class="grid-entry">
+    <h3>💭 Mindset</h3>
+    <p>You need to tick in a certain way to build cutting edge products. There’s more than just hard requirements and solid code. I care for the bigger picture, for the team and for clear communication. I’m an agile mind and I try to help on all levels.</p>
+  </div>
 
-I’m working in, observing and shaping companies that build big web apps for the better part of five years. I’m deeply interested in maintainability, scalability, automation, work culture and team building. Especially in front-end development teams.
+  <div class="grid-entry">
+    <h3>🏫 Learning</h3>
+    <p>The web industry is fast! One needs to learn quick and adapt fast in order to stay upfront. I help my clients to wrap their head around new concepts. I'm an excellent pairing partner and used to write the right amount of documentation for APIs.</p>
+  </div>
+  <span class="clear"></span>
+</div>
 
-As a quick learner I am able to easily pick up best practices as well as the latest cutting edge concepts to tailor solutions for the specific problems we are facing. Whether purely technical in writing code or on a team/company focused meta-level.
 
-<br />
-<br />
+<h2 class="home-section" id="offers">I can help you</h2>
 
----
+<div class="grid">
+  <div class="grid-entry">
+    <h3>🧐 Review session</h3>
+    <p>I can be your second mind or other pair of eyes on a particular problem. No matter if it’s just an hour of talking or an extensive review of your application.</p>
+  </div>
 
-<br />
-<br />
+  <div class="grid-entry">
+    <h3>👯‍♂️ Coaching</h3>
+    <p>You want to learn s.th. that I know? I will give my very best to enable you in intense pairing sessions, no matter your skill level.</p>
+  </div>
 
-## My other lives
+  <div class="grid-entry">
+    <h3>👨‍👩‍👧‍👦 Consulting</h3>
+    <p>I dive deep into a team and try to help and improve in all aspects I see fit. As a team member I work on daily tasks, will try to identify bottlenecks and spread my knowledge.</p>
+  </div>
 
-I love open source and tinkering with all sorts of tech. Check out my [GitHub profile](https://github.com/Xiphe).
+  <div class="grid-entry">
+    <h3>🌴 Bootcamp</h3>
+    <p>I looking forward to organizing a coding bootcamp somewhere in Europe. <a href="https://twitter.com/XipheHH">Follow me on twitter</a> or <a href="mailto:hi@xiphe.net">drop me a mail</a> to stay updated.</p>
+  </div>
+  <span class="clear"></span>
+  <div class="center">
+    <a class="cta" href="mailto:hi@xiphe.net">Get in touch!</a>
+  </div>
+</div>
 
-I also write and talk about music and life in general on [hannesdiem.de](http://hannesdiem.de) and in the [Tagesform Podcast](https://itunes.apple.com/de/podcast/tagesform-uber-die-musik-das/id1109789077) (both in german).
 
-I sing and play a bunch of instruments with my bands [House on a Hill](http://houseonahill.de/) and [Absolem Max](https://www.absolem-max.com/).
+<h2 class="home-section" id="skills">Skills</h2>
 
-I [write and publish songs](https://open.spotify.com/artist/2eaXfpAkFuTlmu5IsLhxMl) and [make videos to document the process](https://www.youtube.com/channel/UCONYaNqDnjsfxIjkWgd_f8w).
-
-Everything I do, I do in the strong belief that we can make the world a better place through love and peace [![Love and Peace](https://love-and-peace.github.io/love-and-peace/badges/base/v1.0.svg)](https://github.com/love-and-peace/love-and-peace/blob/master/versions/base/v1.0/en.md).
+{% include skills.md %}
