@@ -1,11 +1,11 @@
 title: Hannes Diercks
 email: hi@xiphe.net
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Freelance web developer and advisor, love tooling/automation, know how to agile,
-  strive to improve work culture, ambassador of pattern-thinking,
+  strive to improve work culture, servers are so 2010, ambassador of pattern-thinking,
   have a design background, pretty good musician
 baseurl: ""
-url: "https://xiphe.github.io/"
+url: "https://xiphe.net/"
 twitter_username: XipheHH
 github_username: Xiphe
 
