@@ -1,5 +1,6 @@
 ---
 layout: page
+banner: home
 hide_nav: true
 ---
 

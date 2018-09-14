@@ -29,6 +29,6 @@
   </div>
 </header>
 
-{% if page.url == "/" %}
-  {% include banner.html %}
+{% if page.banner %}
+  {% include banner_{{ page.banner }}.html %}
 {% endif %}
