@@ -1,6 +1,7 @@
 ---
 layout: page
 banner: home
+image: /assets/image_home.png
 hide_nav: true
 ---
 

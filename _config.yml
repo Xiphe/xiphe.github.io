@@ -8,11 +8,14 @@ baseurl: ""
 url: "https://xiphe.net/"
 twitter_username: XipheHH
 github_username: Xiphe
-
+twitter:
+  username: XipheHH
+  card: summary_large_image
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

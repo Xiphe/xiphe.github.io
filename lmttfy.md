@@ -1,10 +1,13 @@
 ---
 layout: page
 banner: lmttfy
+title: Let me test that for you - Hannes Diercks
+description: >
+  I maintain and develop your unit/end-to-end/integration test-suite so
+  you can focus on features.
+image: /assets/image_lmttfy.png
 permalink: /lmttfy/
 ---
-
-
 
 <h2>
   🚄 I maximize the value of your continuous integration pipeline
