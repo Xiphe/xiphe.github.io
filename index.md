@@ -50,7 +50,7 @@ hide_nav: true
 
   <div class="grid-entry">
     <h3>👯‍♂️ Coaching</h3>
-    <p>You want to learn s.th. that I know? I will give my very best to enable you in intense pairing sessions, no matter your skill level.</p>
+    <p>You want to learn <a href="/#skills">s.th. that I know</a>? I will give my very best to enable you in intense pairing sessions, no matter your skill level.</p>
   </div>
 
   <div class="grid-entry">
@@ -60,7 +60,7 @@ hide_nav: true
 
   <div class="grid-entry">
     <h3>🌴 Bootcamp</h3>
-    <p>I looking forward to organizing a coding bootcamp somewhere in Europe. <a href="https://twitter.com/XipheHH">Follow me on twitter</a> or <a href="mailto:hi@xiphe.net">drop me a mail</a> to stay updated.</p>
+    <p>I'm looking forward to organizing a coding bootcamp somewhere in Europe. <a href="https://twitter.com/XipheHH">Follow me on twitter</a> or <a href="mailto:hi@xiphe.net">drop me a mail</a> to stay updated.</p>
   </div>
   <span class="clear"></span>
   <div class="center">

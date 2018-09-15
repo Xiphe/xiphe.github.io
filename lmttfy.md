@@ -7,7 +7,7 @@ permalink: /lmttfy/
 
 
 <h2>
-  🚄 I maximize the value of you continuous integration pipeline
+  🚄 I maximize the value of your continuous integration pipeline
   <sup>
 	  <a title="jump to " href="#ci">*</a>
   </sup>
@@ -23,7 +23,7 @@ how to deeply cover an application with the right amount of tests.
 ## 🚔 Sure I favour TDD
 
 Test driven development has taught me how to write well designed Interfaces
-and focus on the right things in testing. And if you have the capacity to
+and focus on the right things in testing. If you have the capacity to
 write tests while developing your app, I strongly recommend you do so. 
 I offer intense pairing sessions to bring you up to speed and teach you 
 everything I know about this topic.
@@ -42,5 +42,6 @@ to you on how you could improve your APIs.
 
 <br />
 <p>
-<a id="ci">*</a> <em>In case you dont have a CI, I can also help you with that :)</em>
+<a id="ci">*</a> <em>In case you dont have a CI, 
+<a href="/#expertise" title="jump to expertise">I can also help you with that</a> :)</em>
 </p>
