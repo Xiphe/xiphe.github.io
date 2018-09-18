@@ -16,7 +16,7 @@ permalink: /lmttfy/
   </sup>
 </h2>
 
-By writing unit tests, integration tests, automated browser tests or by
+By writing unit tests *(in JavaScript)*, integration tests, automated browser tests or by
 refining/reviving your existing test-suite.
 
 As a contributor of jest 🃏 and its eco system, creator of various unknown test
