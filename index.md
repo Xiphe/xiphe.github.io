@@ -75,13 +75,12 @@ hide_nav: true
 {% include skills.md %}
 
 <br />
-<br />
 <h2 class="home-section" id="other">Other interesting stuff I do</h2>
 
 <div class="grid">
   <a href="/lmttfy" class="grid-entry bg" style="background-image: url(/assets/complexity.png)">
     <h3>Let me test that for you</h3>
-    <p>You focus on features<br />I ensure operability</p>
+    <p>You create features<br />I create tests</p>
   </a>
   <a href="https://mutualistic.systems" class="grid-entry bg" style="background-image: url(/assets/mutualistic.png)">
     <h3>Mutualistic</h3>
