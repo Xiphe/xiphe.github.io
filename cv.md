@@ -7,6 +7,26 @@ permalink: /cv/
 Work I'm especially proud of:
 
 <br />
+**2017 Q3 - 2018 Q2+**
+### Creation of a Component Library Hosting Platform
+
+[![patternson logo](/assets/patternson_logo.png)](https://patternson.io)
+
+Gathering all the learnings from past gigs, my brother [Lasse Diercks](https://lassediercks.de/) 
+and me created the groundwork of a hosting platform for technology-agnostic 
+components. 
+Check out [patternson.io](https://patternson.io) for a alpha invite.
+
+<br />
+**2018 Q1**
+### Development of an open source styleguide plugin for nuxt.js
+
+Following the vision to increase quality and efficiency of product design and 
+development workflows by enabling a team to create abstractions around user
+interface related decisions. We came up with [nuxt-styleguide](https://sumcumo.github.io/nuxt-styleguide/) as a tool to support this.
+
+
+<br />
 **2017 Q1-2**
 ### Creation of an interface library and development environment for a multi-million user social network 
 
@@ -65,7 +85,7 @@ Freelance web developer and advisor
 
 **2008 - present**: 
 
-Continuously improving on everything I’m interested in. (See [Skills](/skills/))
+Continuously improving on everything I’m interested in. (See [Skills](/#skills))
 
 **2014 - 2016**: 
 
