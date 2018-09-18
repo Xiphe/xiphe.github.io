@@ -200,15 +200,13 @@ a, a:visited {
 
   }
 }
-a.grid-entry {
+a.grid-entry, a.grid-entry:visited {
   display: block;
   &:hover, &:active &:focus {
     color: #fff !important;
     box-shadow: inset 0 0 0 4px fuchsia;
   }
 }
-
-
 
 .home-section {
   text-align: center;
