@@ -103,4 +103,11 @@ hide_nav: true
     <h3>Hannes Diem</h3>
     <p>Me talking and singing about music, life and everything (in german)</p>
   </a>
+  <span class="clear"></span>
+</div>
+
+
+<h2 class="home-section" id="final-cta">Last call to action button for this page:</h2>
+<div class="center">
+  <a class="cta" href="mailto:hi@xiphe.net">Get in touch!</a>
 </div>
