@@ -73,3 +73,35 @@ hide_nav: true
 <h2 class="home-section" id="skills">Skills</h2>
 
 {% include skills.md %}
+
+<br />
+<br />
+<h2 class="home-section" id="other">Other interesting stuff I do</h2>
+
+<div class="grid">
+  <a href="/lmttfy" class="grid-entry bg" style="background-image: url(/assets/complexity.png)">
+    <h3>Let me test that for you</h3>
+    <p>You focus on features<br />I ensure operability</p>
+  </a>
+  <a href="https://mutualistic.systems" class="grid-entry bg" style="background-image: url(/assets/mutualistic.png)">
+    <h3>Mutualistic</h3>
+    <p>High end frontend consultancy team</p>
+    <br />
+  </a>
+  <a href="https://patternson.io" class="grid-entry bg" style="background-image: url(/assets/patternson.png)">
+    <h3>Patternson</h3>
+    <p>A hosting platform for technology-agnostic components</p>
+  </a>
+  <a href="https://www.instagram.com/susy.world/" class="grid-entry bg" style="background-image: url(/assets/susy.jpg)">
+    <h3>susy.world</h3>
+    <p>My wife and me using hashtags like #vanlife #kitesurfing and #agileliving</p>
+  </a>
+  <a href="https://absolem-max.com" class="grid-entry bg" style="background-image: url(/assets/absolem_max.png)">
+    <h3>Absolem Max</h3>
+    <p>Finest acoustic soul music</p><br />
+  </a>
+  <a href="https://hannesdiem.de" class="grid-entry bg" style="background-image: url(/assets/diem.png)">
+    <h3>Hannes Diem</h3>
+    <p>Me talking and singing about music, life and everything (in german)</p>
+  </a>
+</div>

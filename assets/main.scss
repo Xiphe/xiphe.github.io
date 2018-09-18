@@ -183,7 +183,32 @@ a, a:visited {
   &:nth-child(2n+1) {
     margin-right: 10%;
   }
+
+  &.bg {
+    background-size: cover;
+    height: 6em;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    width: 43%;
+    padding: 2em 3%;
+    text-shadow: -1px 1px 1px #000;
+    text-decoration: none;
+    &:nth-child(2n+1) {
+      margin-right: 2%;
+    }
+
+  }
 }
+a.grid-entry {
+  display: block;
+  &:hover, &:active &:focus {
+    color: #fff !important;
+    box-shadow: inset 0 0 0 4px fuchsia;
+  }
+}
+
+
 
 .home-section {
   text-align: center;
@@ -211,6 +236,15 @@ a, a:visited {
     float: none;
     &:nth-child(2n) {
       margin-right: 0;
+    }
+    &.bg {
+      max-width: 259px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      &:nth-child(2n+1) {
+        margin-right: auto;
+      }
     }
   }
   .cta {
