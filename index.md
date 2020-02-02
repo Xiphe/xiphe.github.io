@@ -64,9 +64,7 @@ hide_nav: true
     <p>I'm looking forward to organizing a coding bootcamp somewhere in Europe. <a href="https://twitter.com/XipheHH">Follow me on twitter</a> or <a href="mailto:hi@xiphe.net">drop me a mail</a> to stay updated.</p>
   </div>
   <span class="clear"></span>
-  <div class="center">
-    <a class="cta" href="mailto:hi@xiphe.net">Get in touch!</a>
-  </div>
+
 </div>
 
 
@@ -106,8 +104,3 @@ hide_nav: true
   <span class="clear"></span>
 </div>
 
-
-<h2 class="home-section" id="final-cta">Last call to action button for this page:</h2>
-<div class="center">
-  <a class="cta" href="mailto:hi@xiphe.net">Get in touch!</a>
-</div>
