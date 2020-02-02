@@ -25,7 +25,7 @@ hide_nav: true
 
   <div class="grid-entry">
     <h3>🚀 Serverless</h3>
-    <p>I’m an early adopter of the serverless methodology. All of my own products and tools (like <a href="https://patternson.io">patternson.io</a>) run on infrastructure that only costs money when something is actively used.</p>
+    <p>I’m an early adopter of the serverless methodology. All of my own products and tools  run on infrastructure that only costs money when something is actively used.</p>
   </div>
 
   <div class="grid-entry">
@@ -78,19 +78,19 @@ hide_nav: true
 <h2 class="home-section" id="other">Other interesting stuff I do</h2>
 
 <div class="grid">
+  <a href="https://schubrake.de" class="grid-entry bg" style="background-image: url(/assets/schubbg.png)">
+    <h3><img src="/assets/schubrakede.svg" alt="Schubrakede" /></h3>
+    <p>New Ideas for complex Problems<br />(in german)</p>
+  </a>
   <a href="/lmttfy" class="grid-entry bg" style="background-image: url(/assets/complexity.png)">
     <h3>Let me test that for you</h3>
     <p>You create features<br />I create tests</p>
   </a>
-  <a href="https://mutualistic.systems" class="grid-entry bg" style="background-image: url(/assets/mutualistic.png)">
-    <h3>Mutualistic</h3>
-    <p>High end frontend consultancy team</p>
-    <br />
+  <a href="https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+Xiphe" class="grid-entry bg" style="background-image: url(/assets/githubbg.png)">
+    <h3>Open Source</h3>
+    <p>Active involvement in lots of awesome projects</p><br />
   </a>
-  <a href="https://patternson.io" class="grid-entry bg" style="background-image: url(/assets/patternson.png)">
-    <h3>Patternson</h3>
-    <p>A hosting platform for technology-agnostic components</p>
-  </a>
+ 
   <a href="https://www.instagram.com/susy.world/" class="grid-entry bg" style="background-image: url(/assets/susy.jpg)">
     <h3>susy.world</h3>
     <p>My wife and me using hashtags like #vanlife #kitesurfing and #agileliving</p>
