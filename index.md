@@ -77,7 +77,7 @@ hide_nav: true
 
 <div class="grid">
   <a href="https://schubrake.de" class="grid-entry bg" style="background-image: url(/assets/schubbg.png)">
-    <h3><img src="/assets/schubrakede.svg" alt="Schubrakede" /></h3>
+    <h3><img src="/assets/Schubrakede.svg" alt="Schubrakede" /></h3>
     <p>New Ideas for complex Problems<br />(in german)</p>
   </a>
   <a href="/lmttfy" class="grid-entry bg" style="background-image: url(/assets/complexity.png)">
