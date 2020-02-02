@@ -16,9 +16,8 @@ social:
   name: Hannes Diercks
   links:
     - https://twitter.com/XipheHH
-    - https://www.facebook.com/XipheHH
-    - https://www.xing.com/profile/Hannes_Diercks/
     - https://github.com/Xiphe
+    - https://www.xing.com/profile/Hannes_Diercks/
 
 # Build settings
 markdown: kramdown
