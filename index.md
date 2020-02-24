@@ -19,13 +19,22 @@ hide_nav: true
   </div>
 
   <div class="grid-entry">
-    <h3>👮‍♀️ QA</h3>
-    <p>With a background in graphic design, I care for visuals and usability. I‘m used to test driven development and have a deep knowledge on browser automation.</p>
+    <h3>🎨 Design Systems</h3>
+    <p>I pioneered the UI Library of <a href="https://www.jimdo.com/">Jimdo</a> in 2015. Since then I successfully helped three major companies <em>(and lots of smaller projects)</em> to shift their workflows from waterfall to collaborative. Overall causing huge improvements in accessability, performance and consistency. 
+    </p>
   </div>
 
   <div class="grid-entry">
-    <h3>🚀 Serverless</h3>
-    <p>I’m an early adopter of the serverless methodology. All of my own products and tools  run on infrastructure that only costs money when something is actively used.</p>
+    <h3>🚀 Serverless/Cloud</h3>
+    <p>I’m an early adopter of serverless, deeply interested in the methodology and honestly cant stand the idea of a running server doing nothing.
+    My service designs fit the constrains of surrounding providers like AWS and Firebase
+    and are micro and maintainable.</p>
+  </div>
+
+  <div class="grid-entry">
+    <h3>👮‍♀️ QA/Testing</h3>
+    <p>With a background in graphic design, I care for visuals and usability. 
+     I‘m used to test driven development and also love to <a href="https://xiphe.net/lmttfy/">write tests for existing code</a>. No matter if unit or end-to-end, I find the best approach to provide stability.</p>
   </div>
 
   <div class="grid-entry">
@@ -33,10 +42,6 @@ hide_nav: true
     <p>You need to tick in a certain way to build cutting edge products. There’s more than just hard requirements and solid code. I care for the bigger picture, for the team and for clear communication. I’m an agile mind and I try to help on all levels.</p>
   </div>
 
-  <div class="grid-entry">
-    <h3>🏫 Learning</h3>
-    <p>The web industry is fast! One needs to learn quick and adapt fast in order to stay upfront. I help my clients to wrap their head around new concepts. I'm an excellent pairing partner and used to write the right amount of documentation for APIs.</p>
-  </div>
   <span class="clear"></span>
 </div>
 
@@ -60,13 +65,20 @@ hide_nav: true
   </div>
 
   <div class="grid-entry">
-    <h3>🌴 Bootcamp</h3>
-    <p>I'm looking forward to organizing a coding bootcamp somewhere in Europe. <a href="https://twitter.com/XipheHH">Follow me on twitter</a> or <a href="mailto:hi@xiphe.net">drop me a mail</a> to stay updated.</p>
+    <h3>👨‍🏫 Workshops/Talks</h3>
+    <p>I love to give talks about what I have learned or am interested in. I also design individual workshops for your team to hands-on teach them what I know and how I work.</p>
   </div>
   <span class="clear"></span>
 
 </div>
 
+<h2 class="home-section" id="current-location">Current Location: 🇪🇸 Tarifa</h2>
+
+As a digital nomad, I normally work remote and have received consistently positive feedback for my reachability, documentation and communication. But I also like to work on site when it is suitable.
+
+<img src="/assets/tarifa_dos_mares.png" alt="Picture of Tarifa" />
+
+Next up: 🇩🇪Hamburg (May 2020) → 🇪🇺Probably somewhere south in Europe (September 2020)  
 
 <h2 class="home-section" id="skills">Skills</h2>
 
@@ -86,7 +98,7 @@ hide_nav: true
   </a>
   <a href="https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+Xiphe" class="grid-entry bg" style="background-image: url(/assets/githubbg.png)">
     <h3>Open Source</h3>
-    <p>Active involvement in lots of awesome projects</p><br />
+    <p>I'm actively involved in lots of awesome projects</p><br />
   </a>
  
   <a href="https://www.instagram.com/susy.world/" class="grid-entry bg" style="background-image: url(/assets/susy.jpg)">

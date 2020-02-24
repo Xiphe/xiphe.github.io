@@ -121,31 +121,9 @@ a, a:visited {
   text-align: center;
 }
 
-.cta {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: inline-block;
-  border: 3px solid transparent;
-  background: black;
-  border-radius: .2em;
-  font-size: 2rem;
-  color: #fff;
-  font-weight: bold;
-  padding: 1rem 2rem;
-  &::before {
-    content: "✉️";
-    padding: 0 .5em 0 0;
-    font-size: 1.3em;
-    line-height: 0em;
-    position: relative;
-    top: .15em;
-  }
-  &:hover, &:focus, &:active {
-    &::before {
-      content: "💌";
-    }
-    text-decoration: none;
-    // background-color: #fff;
-    border-color: fuchsia;
+.page-content {
+  img {
+    border-radius: 3px;
   }
 }
 

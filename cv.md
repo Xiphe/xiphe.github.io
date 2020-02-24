@@ -7,15 +7,41 @@ permalink: /cv/
 Work I'm especially proud of:
 
 <br />
+**2019 - Current**
+
+### Providing rocket-fast feedback for unknowns in product concepts
+
+[![logo of schubrakede](/assets/Schubrakede_dark.svg)](https://schubrake.de)
+
+With my company Schubrakede we're helping companies to
+evaluate new ideas in the fastest possible way with manageable expenditure in time
+and money.
+
+<br />
+**Summer 2019**
+
+### Managing the conversion of cotype from an internal project to Open Source
+
+[![logo of cotype](/assets/cotype.svg)](https://github.com/cotype/core)
+
+After working on Cotype for client projects of [Cellular](https://www.cellular.de/)
+for a while, the company decided to make the project open source. 
+I managed and executed the move with a focus on continuous integration, automated
+releases, additional test coverage and integration with common open source tools
+like Circle CI, Codecov and Greenkeeper.
+
+<br />
 **2017 Q3 - 2018 Q2+**
 ### Creation of a Component Library Hosting Platform
 
-[![patternson logo](/assets/patternson_logo.png)](https://patternson.io)
+![patternson logo](/assets/patternson_logo.png)
 
 Gathering all the learnings from past gigs, my brother [Lasse Diercks](https://lassediercks.de/) 
 and me created the groundwork of a hosting platform for technology-agnostic 
 components. 
-Check out [patternson.io](https://patternson.io) for a alpha invite.
+
+💥 The project is discontinued because the personal time investment was 
+to much and we moved on to other endeavours.
 
 <br />
 **2018 Q1**
@@ -58,16 +84,31 @@ I moved 20+ front-end modules (OSS and private) from bower, grunt/gulp, manual v
 
 Along with one of the best teams I've ever worked with, I've created the current templating and customisation system of Jimdo. Focussing on front-end architecture, front-end tooling, user experience, integration with our legacy stack and data-driven development of related systems.
 
+
 <br />
-**2014 - present** 
-### Converting people to use and utilize commit message formats
+<br />
 
-I'm an ambassador of writing meaningfull commit messages and maintaining a usefull git commit log.
-It not only eases up the work of my fellow developers and future me, it also enables a tremendous amount
-of automation and tooling.
+---
 
-I've also held a talk about that at JS Unconf 2016. [Here are the slides for "stop writing commitMESSages"](https://docs.google.com/presentation/d/1EXXRzbT17rbD7CFXugPZgvgMhsoVE1XXSA7UxBl3iXw/edit?usp=sharing
-).
+<br />
+<br />
+
+## Conferences & Talks
+
+- 2019 [JSUnconf](https://2019.jsunconf.eu/) 
+  - [Slides: Testing - why & what](https://docs.google.com/presentation/d/1SGN6Y_XGtgaAVEZgq-L4NbgUagUKwJ86lZBdZkGkv2E/edit?usp=sharing) (not recorded)
+  - [YouTube(Lightning Talk): Two soft skills to save time and therefore money](https://www.youtube.com/watch?v=Pbq8E8Hvjd8)
+- 2019 [JSConf Hawai'i](https://2019.jsconfhi.com/)
+- 2018 [Scotland JS](scotlandjs.com)
+- 2017 [JSUnconf](http://2017.jsunconf.eu/)
+- 2016 [33th chaos communication congress (works for me)](https://media.ccc.de/c/33c3)
+- 2016 JSUnconf 
+  - [YouTube: Live-Session Frontend Testing](https://www.youtube.com/watch?v=eQt39xpUc3s)
+  - [YouTube(Lightning Talk): stop writing commitMESSages, please](https://www.youtube.com/watch?v=fJKlmhriAH4&t=1200s) [Slides](https://docs.google.com/presentation/d/1EXXRzbT17rbD7CFXugPZgvgMhsoVE1XXSA7UxBl3iXw/edit?usp=sharing)
+- 2015 [32th chaos communication congress (gated communities)](https://media.ccc.de/c/32c3)
+- 2015 [Socoded](http://2015.socoded.com/)
+- 2014 [JSUnconf](http://2014.jsunconf.eu/)
+- 2013 [Socoded](http://2013.socoded.com/)
 
 <br />
 <br />
@@ -81,11 +122,14 @@ I've also held a talk about that at JS Unconf 2016. [Here are the slides for "st
 
 **2017 - present**: 
 
-Freelance web developer and advisor
+Freelance web developer and advisor for 
 
-**2008 - present**: 
-
-Continuously improving on everything I’m interested in. (See [Skills](/#skills))
+- [Xing/New Work](https://www.xing.com/)
+- [sum.cumo](https://www.sumcumo.com/)
+- [Cellular](https://www.cellular.de/)
+- [Fielmann](https://fielmann.de)
+- [Esther Haase](https://estherhaase.com/)
+- …
 
 **2014 - 2016**: 
 
