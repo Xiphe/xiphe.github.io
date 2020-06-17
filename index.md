@@ -78,7 +78,6 @@ As a digital nomad, I normally work remote and have received consistently positi
 
 <img src="/assets/tarifa_dos_mares.png" alt="Picture of Tarifa" />
 
-Next up: 🇩🇪Hamburg (May 2020) → 🇪🇺Probably somewhere south in Europe (September 2020)  
 
 <h2 class="home-section" id="skills">Skills</h2>
 
