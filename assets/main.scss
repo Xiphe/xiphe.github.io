@@ -98,7 +98,7 @@ a, a:visited {
 }
 
 .banner {
-  padding: 25vh 0;
+  padding: 15vh 0;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -107,10 +107,14 @@ a, a:visited {
     font-size: 3.3em;
     text-shadow: -0.07em 0.07em 0 #000;
   }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 .banner_home {
-  background-image: url(/assets/dive.jpg);
+  background-image: url(/assets/rooftop_hustle.jpg);
 }
 
 .banner_lmttfy {
@@ -127,11 +131,24 @@ a, a:visited {
   }
 }
 
+.references {
+  background: #5c9e84;
+  padding: 1em;
+  .wrapper {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  img {
+    height: 1em;
+  }
+}
+
 .hello {
   img {
     float: left;
     max-width: 30%;
-    margin: -5% 5% 0 0;
+    margin: -1.5% 5% 0 0;
     border-radius: 100%;
   }
   h2 {
