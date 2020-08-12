@@ -7,6 +7,18 @@ permalink: /cv/
 Work I'm especially proud of:
 
 <br />
+**2020 - Current**
+
+### Creating a envelop budgeting desktop application
+
+[![logo and header of budgetbudget](/assets/budgetbudgetheader.png)](https://github.com/Xiphe/budgetbudget)
+
+For managing personal finances, I really like the full local approach of [MoneyMoney](https://moneymoney-app.com/) + As a former [YNAB](https://www.youneedabudget.com/) user
+I was really disappointed to see them moving to a saas model.  
+Thats why I'm creating an electron based, local only budgeting solution that 
+works hand in hand with MoneyMoney and keeps the users data on his machine.
+
+<br />
 **2019 - Current**
 
 ### Providing rocket-fast feedback for unknowns in product concepts
@@ -32,6 +44,7 @@ like Circle CI, Codecov and Greenkeeper.
 
 <br />
 **2017 Q3 - 2018 Q2+**
+
 ### Creation of a Component Library Hosting Platform
 
 ![patternson logo](/assets/patternson_logo.png)
@@ -45,6 +58,7 @@ to much and we moved on to other endeavours.
 
 <br />
 **2018 Q1**
+
 ### Development of an open source styleguide plugin for nuxt.js
 
 Following the vision to increase quality and efficiency of product design and 
@@ -54,14 +68,16 @@ interface related decisions. We came up with [nuxt-styleguide](https://sumcumo.g
 
 <br />
 **2017 Q1-2**
-### Creation of an interface library and development environment for a multi-million user social network 
+
+### Bootstrapping of XING Brewery - an interface library and development environment for a multi-million user social network 
 
 My focus was architectural component design, lean tooling and workflows, cross-team communication and overall code quality.  
-The tool is now providing the technical fundament for more than four product teams and probably
-will be used by all front-end teams in the near future.
+The tool is now providing the technical fundament for all web development teams and
+had a deep impact on product quality and development speed.
 
 <br />
 **2015 - 2016** 
+
 ### Jimdo UI Library
 
 ![Example Screenshot of the UI Library](/assets/ui-library.png)
@@ -72,12 +88,14 @@ A part of the project is visible as the [Jimdo UI Hub](http://jimdo.github.io/ui
 
 <br />
 **2015 - 2016**
+
 ### Modernising tooling/CD all internal front-end dependencies of Jimdo
 
 I moved 20+ front-end modules (OSS and private) from bower, grunt/gulp, manual versioning, testing, releasing to a state of the art front-end tooling stack using [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [semantic release](https://github.com/semantic-release/semantic-release), [travis ci](https://travis-ci.org/) and so on.
 
 <br />
 **2014 - 2015** 
+
 ### Jimdo Template Selection and and Customisation
 
 ![Example Screenshot of the Jimdo Template Selection](/assets/template-selection.png)
