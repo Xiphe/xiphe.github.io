@@ -97,6 +97,10 @@ a, a:visited {
   }
 }
 
+.page-content {
+  position: relative;
+}
+
 .banner {
   padding: 15vh 0;
   background-size: cover;
@@ -209,6 +213,33 @@ a.grid-entry, a.grid-entry:visited {
 .home-section {
   text-align: center;
   margin-top: 2em;
+}
+
+.post-header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+
+.post-header-has-image {
+
+  margin-top: 50vh;
+}
+
+
+.sidetrack {
+  margin: 2em 2em 2em -3em;
+}
+
+@media screen and (max-width: 860px) {
+  .sidetrack {
+    margin-left: 1em;
+    width: calc(100% - 1em);
+  }
 }
 
 @media screen and (max-width: 600px) {

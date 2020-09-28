@@ -23,6 +23,10 @@ social:
 markdown: kramdown
 theme: minima
 
+collections:
+  posts:
+    permalink: /blog/:categories/:title:output_ext
+
 plugins:
   - jekyll-feed
 exclude:

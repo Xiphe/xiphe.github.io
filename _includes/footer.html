@@ -3,7 +3,7 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
+        <ul class="contact-list" id="footer-contact">
           <li>
             {% if site.author %}
               {{ site.author | escape }}
@@ -49,5 +49,7 @@
     </p>
   </div>
 </footer>
+{% if jekyll.environment == "production" %}
 <script async defer src="https://sa.xiphe.net/latest.js"></script>
 <noscript><img src="https://sa.xiphe.net/noscript.gif" alt=""/></noscript>
+{% endif %}
