@@ -6,6 +6,7 @@ image: /assets/posts/2020-09-28/vitor-pinto-M_fFGxg8Zhk-unsplash.jpg
 tags: testing, components, design, UI, test-real-styles
 author: Hannes Diercks
 imageBy: '<span>Photo by <a href="https://unsplash.com/@vdapinto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vitor Pinto</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
+description: Learn to write solid tests for the appearance of components
 ---
 
 
