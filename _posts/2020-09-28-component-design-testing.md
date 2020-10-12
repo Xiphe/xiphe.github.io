@@ -6,6 +6,7 @@ image: /assets/posts/2020-09-28/vitor-pinto-M_fFGxg8Zhk-unsplash.jpg
 tags: testing, components, design, UI, test-real-styles
 author: Hannes Diercks
 imageBy: '<span>Photo by <a href="https://unsplash.com/@vdapinto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vitor Pinto</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
+cta: <li>Hire me to help your frontend dev & design or recommend me</li>
 description: Learn to write optimal tests for the looks of your app
 ---
 
@@ -327,22 +328,3 @@ I'm available to help you set everything up technically, help dev and design
 teams to get the most value of this and also [write tests for you](/lmttfy/).
 
 [get in touch ❣️](#footer-contact)
-
-
-&nbsp;
-
-
-### Was this post valuable for you?
-
-Cool! Here is how you can give back if you want to: (_only pick a few_ 😉)
-
- - [Fix typos or improve my phrasing 💖](https://github.com/Xiphe/xiphe.github.io/edit/master/_posts/2020-09-28-component-design-testing.md)
- - Share the article to people that might also like it
- - [Follow me on Twitter](https://twitter.com/XipheHH)
- - [Sponsor me on GitHub](https://github.com/sponsors/Xiphe)
- - Hire me to help your frontend dev & design or recommend me
- - Spread love, peace and sanity
- - Act to save our planet
- - Be inclusive to everyone but the intolerant (because [the paradox of tolerance](https://en.wikipedia.org/wiki/Paradox_of_tolerance) is a thing).
-
-Thanks for reading! Be safe ✌️
