@@ -96,7 +96,7 @@ This example uses `main` as the production branch and `gh-pages` for GitHub Page
 
 You might now think: Aren't we creating a jekyll page? Why should we build it ourself instead of using the [builtin jekyll that GitHub is using for pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)?
 
-1. In this article jekyll serves as a real-life placeholder for [hugo](https://gohugo.io/), [Next.js](https://nextjs.org/), or any other static page generator.
+1. In this article jekyll serves as a real-life placeholder for [hugo](https://gohugo.io/), [Next.js](https://nextjs.org/), or [any other static page generator](https://github.com/myles/awesome-static-generators).
 2. Even with jekyll, since we'll be hosting multiple versions of the page we need to build each one and move it to the right place on the `gh-pages` branch
 3. In fact we'll [disable the default jekyll build](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
 
