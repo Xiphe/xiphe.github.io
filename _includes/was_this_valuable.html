@@ -1,14 +1,33 @@
 <p>&nbsp;</p>
 <hr />
 <p>&nbsp;</p>
-<h3>Was this post valuable for you?</h3>
+<h3 id="wasthispostvaluable">Was this post valuable for you?</h3>
+<script>
+  (() => {
+    if (!"IntersectionObserver" in window) {
+      return;
+    }
+
+    var observer = new IntersectionObserver(
+      ([{ isIntersecting }]) => {
+        if (isIntersecting) {
+          sa_event("reached_wasthispostvaluable");
+          observer.disconnect();
+        }
+      },
+      { threshold: [0] }
+    );
+
+    observer.observe(document.querySelector("#wasthispostvaluable"));
+  })();
+</script>
 <p>
-  Cool! Here is how you can give back if you want to: (<em>only pick a few</em> 😉)
+  Cool! Here is how you can give back if you want to: (<em>only pick a few</em>
+  😉)
 </p>
 <ul>
   <li>
-    <a
-      href="https://github.com/Xiphe/xiphe.github.io/edit/master/{{page.path}}"
+    <a href="https://github.com/Xiphe/xiphe.github.io/edit/master/{{page.path}}"
       >Fix typos or improve my phrasing 💖</a
     >
   </li>
