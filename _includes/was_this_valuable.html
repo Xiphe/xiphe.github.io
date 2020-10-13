@@ -11,7 +11,7 @@
     var observer = new IntersectionObserver(
       ([{ isIntersecting }]) => {
         if (isIntersecting) {
-          sa_event("reached_wasthispostvaluable");
+          sa_event(`reached_wtpvty_on_${window.document.location.pathname}`);
           observer.disconnect();
         }
       },
