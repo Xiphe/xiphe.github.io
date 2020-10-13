@@ -7,7 +7,7 @@ tags: testing, gh-pages, ci, preview, workflows
 author: Hannes Diercks
 imageBy: '<span>Photo by <a href="https://unsplash.com/@dizzyd718?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Drew Graham</a> on <a href="https://unsplash.com/s/photos/parallel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
 cta: <li>Hire me to build or improve your continuous deployment or recommend me</li>
-description: Learn to automatically get previews pages of all your work in progress
+description: Automatically create preview pages of all your work in progress
 ---
 
 I love [GitHub Pages](https://pages.github.com/) for it's simplicity.  
@@ -269,6 +269,9 @@ Replace the `npx gh-pages\ ...` call with the following:
 <div class="sidetrack">
 {{ content | markdownify }}
 </div>
+
+Warning: `cleanup-gh-pages-previews` is a highly specific implementation
+tailored for setups like this one. [See implementation](https://github.com/Xiphe/example-ghpage-feature-preview/blob/main/_beforeAdd.js) to check if it fits your needs.
 
 &nbsp;
 
