@@ -6,16 +6,16 @@ description: >
   have a design background, pretty good musician
 baseurl: ""
 url: "https://xiphe.net"
-twitter_username: XipheHH
+twitter_username: hannes_im
 github_username: Xiphe
 twitter:
-  username: XipheHH
+  username: hannes_im
   card: summary_large_image
 
 social:
   name: Hannes Diercks
   links:
-    - https://twitter.com/XipheHH
+    - https://twitter.com/hannes_im
     - https://github.com/Xiphe
     - https://www.xing.com/profile/Hannes_Diercks/
 
