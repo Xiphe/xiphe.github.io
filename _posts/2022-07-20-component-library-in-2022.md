@@ -216,15 +216,7 @@ Let's comparing the most popular UI library tools
 - [Storybook](https://storybook.js.org/)
   This is a **workshop**: It supports developers at building great components.
 
-
-{% capture content %}
-
-ℹ️ [Figma](https://figma.com/) is also a workshop
-
-{% endcapture %}
-
-<small>{{ content | markdownify }}</small>
-
+<small>ℹ️ <a href="https://figma.com/">Figma</a> is also a workshop</small>
 
 So with that in mind, and the fact that the library is of little worth when
 nobody uses it I advise to have an up to date storefront. 
