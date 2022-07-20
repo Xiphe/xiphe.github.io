@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Building company internal ui component library in 2022
+title: Building a company internal ui component library in 2022
 categories: systems
 image: /assets/posts/2022-07-20/alfons-morales-YLSwjSy7stw-unsplash.jpeg
 tags: component-library, web platform
 author: Hannes Diercks
 imageBy: '<span>Photo by <a href="https://unsplash.com/@alfonsmc10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alfons Morales</a> on <a href="https://unsplash.com/s/photos/component-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>'
-description: Why and how I'd create a component library in 2022
+description: Why and how I'd create a component library today
 ---
 
 Hi I'm Hannes and a few days ago I found myself looking into a rabbit-whole
@@ -33,13 +33,15 @@ about these systems, mix it with my current assessment of the web platform,
 sprinkle a little flat-hierarchy ideology in there and write down how I'd create
 a component library today, mid 2022.
 
-Ready? Ok let's go 🚀
+Ready? _Ok let's go!_ 🚀
 
 {% endcapture %}
 
 <div class="sidetrack">
 {{ content | markdownify }}
 </div>
+
+&nbsp;
 
 ## 1. Why?
 
@@ -51,7 +53,7 @@ most powerful tools they can utilize to make communication as easy as possible.
 
 ### 💡 Document Decisions
 
-**Each component documents of all design and development decisions leading to it.**
+**Each component documents all design and development decisions leading to it.**
 
 The creation process may vary, but in the end there is one component
 that has been approved by both development and design.
@@ -62,7 +64,7 @@ When someone is not entirely happy with a component they can use the current
 state of the library as a reference point and propose improvements
 based on that.
 
-### 🥳 Unify UI/UX of the product
+### 🥳 Unify UI/UX of your product
 
 **Users of your product will subconsciously learn its UX patterns and apply it to other parts of the product. When these patterns match, the user is effective and happy.**
 
@@ -70,21 +72,21 @@ A widely adopted component library is the best way to get there.
 
 If you fail to deliver a coherent experience, for example when the colors
 of your destructive buttons vary a lot across the system, navigating requires
-more cognitive affords from the user which can be exhausting and lead to unhappy
-users.
+more cognitive affords from the user which can be exhausting and lead to deep sadness 😥.
 
 ### 🏎 Speed up development
 
 **Users of the library should be faster when using it then they'd be without it.**
 
-"Fast" is a pretty diffuse term in product development... what I mean is:
+_..."Fast" is a pretty diffuse term in product development... what I mean is_:
 
 1. Getting a decent state of the companies UI/UX in any prototyping environment
-   should be faster using the library then writing it by hand
+   should be a no-brainer.
 2. Round-Trips between design and development should be reduced since both
    speak the same language and can refer to the library
-3. Applying new UI/UX developments/fixes to old code should be a simple task
-   that can be done by someone who does not know the old code at all.
+3. Applying new UI/UX developments/fixes to old code should be **simple**.
+
+&nbsp;
 
 ## How?
 
@@ -102,8 +104,8 @@ API changes, etc...
 
 {% capture content %}
 
-Don't worry in case you never maintained or contributed to an open source project, that's fine.  
-I cover the most important parts later in this article. Just behave sensible,
+🧑‍🏫 Don't worry in case you never maintained or contributed to an open source project, that's fine.  
+I cover the most important parts [later in this article](#-write-documentation-for-users). Just behave sensible,
 remember [why the project exists](#1-why) and be respectful to users and co-maintainers.
 
 {% endcapture %}
@@ -113,7 +115,7 @@ remember [why the project exists](#1-why) and be respectful to users and co-main
 </div>
 
 
-### 👮 Don't get too fixated with nomenclature
+### 🚓 Don't get too fixated with nomenclature
 
 The most famous methodology for design systems is probably [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/). And though I think there is a great amount of guidance
 you can get out of that remember that a component library is a living
@@ -165,7 +167,7 @@ ReactJS only, Marketing & Support teams use low-/no-code solutions, Growth teams
 try out some crazy new stuff, Companies get acquired that had build their
 awesome product with Rails and now should adopt your look fast...  
 
-All of these use HTML/CSS in the end and most likely support serving css file.
+All of these use HTML/CSS in the end and most likely support serving a css file.
 
 #### Level 3: Framework
 
@@ -192,7 +194,9 @@ most common product development environments.
 Make sure that every state is accessible and changeable from outside the
 component. Most state is best managed in the products using the library rather
 then in the components even when it requires a little more boilerplate on the
-consumer side.
+consumer side.  
+
+> routing is also a state
 
 {% endcapture %}
 
@@ -219,9 +223,7 @@ Let's comparing the most popular UI library tools
 
 {% endcapture %}
 
-<small>
-{{ content | markdownify }}
-</small>
+<small>{{ content | markdownify }}</small>
 
 
 So with that in mind, and the fact that the library is of little worth when
@@ -232,7 +234,7 @@ _(Doesn't mean you can't also have a workshop)_.
 
 I personally feel like managing external dependencies is one of the most painful 
 and challenging tasks in modern web development.  
-So it's of high worth when your library is sleek, doesn't disrupt the dependency choice
+Therefore it's of high worth when your library is sleek, doesn't disrupt the dependency choice
 of consumers and has little to ask when dependants want to bring their packages up to date.
 
 There is no golden rule here but I'd recommend using as little dependencies
@@ -259,8 +261,8 @@ The libraries job is to provide component styles, not to serve all css needs.
 Ideally whenever you release an update to the library, consumers can simply
 install the latest version and ship it to users. 
 
-In order to achieve that be aware of the APIs users rely on.  
-When you've chosen to go with [the integration points mentioned earlier](#-create-different-integration-levels) your APIs
+In order to achieve that be aware of the APIs consumers rely on.  
+When you went with [the integration points mentioned earlier](#-create-different-integration-levels) your APIs
 are now:
 
 - variable names of css preprocessor integration
@@ -304,21 +306,33 @@ creating them, at least for less common variants.
 {{ content | markdownify }}
 </div>
 
+&nbsp;
 
 ## What?
 
-Here's my personal tech choice I'd go with today
+> What tech stack should I go with today?
 
-- A dedicated [slack](https://slack.com/) channel where everyone is invited to ask questions and connect
-- A [github](https://github.com/new) repo to organize and communicate in a structured way
-- [scss](https://sass-lang.com/) to create a [variable file similar to bootstraps](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) (but strapped down a lot) and one or more stylesheets for the component styles
+Here's my personal list of solutions that stood the test of time,
+have huge adoption rates and support the requirements I've set out above.
+
+- A dedicated [Slack](https://slack.com/) channel where everyone is invited to ask questions and connect
+- A [GitHub](https://github.com/new) repo to organize and communicate in a structured way
+- [Scss](https://sass-lang.com/) to create a [variable file similar to bootstraps](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) (but strapped down a lot) and one or more stylesheets for the component styles
 - [docz](https://www.docz.site/) to create user facing documentation with example html (and later React) for all components
 - [TypeScript](https://www.typescriptlang.org/) to implement typed components for [your framework here]
-- Leave [react-router](https://reactrouter.com/docs/en/v6) out of the library. 
-  The consuming application is responsible for routing.
 - [esbuild](https://esbuild.github.io/) or [Vite](https://vitejs.dev/) to create tree shakable bundles of the javascript code
 - [semantic release](https://github.com/semantic-release/semantic-release) to create
   a nice changelog, incorporate [Semver](https://semver.org/) and automatically release a package to either npm or some private registry.
 - A PullRequest based workflow that creates a preview of the updated documentation
   as well as a preview release of the package for each change.
 
+There are lots of other puzzle pieces required but I think these are the most important ones 
+to get right in the beginning.
+
+&nbsp;
+
+&nbsp;
+
+Alright, now let's go build a library! 📚
+
+&nbsp;
