@@ -232,9 +232,8 @@ _(Doesn't mean you can't also have a workshop)_.
 
 I personally feel like managing external dependencies is one of the most painful 
 and challenging tasks in modern web development.  
-So it's of high worth when your library is sleek, disrupts the dependency choice
-of consumers as little as possible and only has few pretensions when dependants 
-want to bring their packages up to date.
+So it's of high worth when your library is sleek, doesn't disrupt the dependency choice
+of consumers and has little to ask when dependants want to bring their packages up to date.
 
 There is no golden rule here but I'd recommend using as little dependencies
 that might interfere with consuming projects as possible.
@@ -298,6 +297,8 @@ creating them, at least for less common variants.
 <Button blue />
 // => <button class="button button-blue">
 ```
+
+{% endcapture %}
 
 <div class="sidetrack">
 {{ content | markdownify }}
