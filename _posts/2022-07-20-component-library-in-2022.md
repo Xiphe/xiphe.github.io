@@ -184,9 +184,9 @@ most common product development environments.
 
 {% capture content %}
 
-#### Sidetrack: Component State
+#### Sidetrack: ⚠️ Component State
 
-⚠️ Make sure that every state is accessible and changeable from outside the
+Make sure that every state is accessible and changeable from outside the
 component. Most state is best managed in the products using the library rather
 then in the components even when it requires a little more boilerplate on the
 consumer side.
@@ -196,9 +196,6 @@ consumer side.
 <div class="sidetrack">
 {{ content | markdownify }}
 </div>
-
-
-
 
 ### 📜 Write documentation for users
 
@@ -219,9 +216,9 @@ Let's comparing the most popular UI library tools
 
 {% endcapture %}
 
-<div class="sidetrack">
+<small>
 {{ content | markdownify }}
-</div>
+</small>
 
 
 So with that in mind, and the fact that the library is of little worth when
@@ -230,22 +227,38 @@ _(Doesn't mean you can't also have a workshop)_.
 
 ### 👜 Minimize dependencies
 
-From my personal experience managing external dependencies of a modern web project
-is one of the most painful an challenging tasks. It's of high worth when
-your library is sleek, disrupts the dependency choice of consumers as little
-as possible and has little to ask when dependants want to bring their packages
-up to date.
+I personally feel like managing external dependencies is one of the most painful 
+and challenging tasks in modern web development.  
+So it's of high worth when your library is sleek, disrupts the dependency choice
+of consumers as little as possible and only has few pretensions when dependants 
+want to bring their packages up to date.
 
 There is no golden rule here but I'd recommend using as little dependencies
 that might interfere with consuming projects as possible.
 
-### 🚀 Thoughtful release management
+{% capture content %}
 
-Ideally whenever you release an update to the library, users can simply
-install the latest version and ship it. 🚀
+#### Sidetrack: 🧰 external css utilities
 
-In order to achieve that be aware of the APIs users rely on.
-When you've chosen to go with the integration points mentioned earlier your APIs
+Users of your library will inevitably need custom styling. 
+They should be free to choose if they use inline styes, css in js or 
+[tailwind.css](https://tailwindcss.com/) for that. 
+
+The libraries job is to provide component styles, not to serve all css needs.
+
+{% endcapture %}
+
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
+### 🛳 Thoughtful release management
+
+Ideally whenever you release an update to the library, consumers can simply
+install the latest version and ship it to users. 
+
+In order to achieve that be aware of the APIs users rely on.  
+When you've chosen to go with [the integration points mentioned earlier](#-create-different-integration-levels) your APIs
 are now:
 
 - variable names of css preprocessor integration
@@ -263,8 +276,12 @@ Your library will most likely include more components and helpers
 than any one project will need to use. So there should be tooling at hand
 to either only pick the parts needed for a project or to remove code that is not required.
 
-For the latter approach it's good to know that [PurgeCSS](https://purgecss.com/) needs
-to read complete css classes in your sourcefiles to know what to keep and what not
+{% capture content %}
+
+#### Sidetrack: 🧹 Supporting PurgeCSS
+
+[PurgeCSS](https://purgecss.com/) needs to statically find the css classes 
+you're using in your sourcefiles in order to know what css to keep and what to throw away 🚮
 
 so its usually more effective to use class names in api's instead of magically
 creating them, at least for less common variants.
@@ -279,18 +296,25 @@ creating them, at least for less common variants.
 // => <button class="button button-blue">
 ```
 
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
+
 ## What?
 
-Given your company mostly codes in ReactJS here's what id use:
+Here's my personal tech choice I'd go with today
 
-- A dedicated slack channel where everyone is invited to ask questions and connect
-- A [github](https://github.com/new) _(gitlab, ...)_ repo to organize and communicate
-- [scss](https://sass-lang.com/) to create a [variable file similar to bootstraps](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) (but strapped down a lot)
-- also scss to create one or more stylesheets that hold all the **looks**
+- A dedicated [slack](https://slack.com/) channel where everyone is invited to ask questions and connect
+- A [github](https://github.com/new) repo to organize and communicate in a structured way
+- [scss](https://sass-lang.com/) to create a [variable file similar to bootstraps](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) (but strapped down a lot) and one or more stylesheets for the component styles
 - [docz](https://www.docz.site/) to create user facing documentation with example html (and later React) for all components
-- [TypeScript](https://www.typescriptlang.org/) to implement React components for the **behaviour**
-- [esbuild](https://esbuild.github.io/) to create tree shakable bundles of the javascript code
+- [TypeScript](https://www.typescriptlang.org/) to implement typed components for [your framework here]
+- Leave [react-router](https://reactrouter.com/docs/en/v6) out of the library. 
+  The consuming application is responsible for routing.
+- [esbuild](https://esbuild.github.io/) or [Vite](https://vitejs.dev/) to create tree shakable bundles of the javascript code
 - [semantic release](https://github.com/semantic-release/semantic-release) to create
   a nice changelog, incorporate [Semver](https://semver.org/) and automatically release a package to either npm or some private registry.
 - A PullRequest based workflow that creates a preview of the updated documentation
   as well as a preview release of the package for each change.
+
