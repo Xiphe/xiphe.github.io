@@ -2,7 +2,7 @@
 layout: post
 title: Building company internal ui component library in 2022
 categories: systems
-image: /assets/posts/assets/posts/2022-07-20/alfons-morales-YLSwjSy7stw-unsplash.jpeg
+image: /assets/posts/2022-07-20/alfons-morales-YLSwjSy7stw-unsplash.jpeg
 tags: component-library, web platform
 author: Hannes Diercks
 imageBy: '<span>Photo by <a href="https://unsplash.com/@alfonsmc10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alfons Morales</a> on <a href="https://unsplash.com/s/photos/component-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>'
@@ -38,7 +38,7 @@ Communication between designers and developers is essential when building
 software products in a bigger company. And a component library is on of the
 most powerful tools they can utilize to make communication as easy as possible.
 
-### Document Decisions
+### 💡 Document Decisions
 
 > Each component is a documentation of all design and development decisions related to it.
 
@@ -50,7 +50,7 @@ When someone is not entirely happy with a component they can use the current
 state of the library as a reference point and propose improvements
 based on that.
 
-### Unify UI/UX of the product
+### 🧑‍🎨 Unify UI/UX of the product
 
 > Users of your product will subconsciously learn its UX patterns and apply it
 > to other parts of the product. When these patterns match, the user is effective
@@ -62,7 +62,7 @@ Think destructive buttons. They should have the same alarming color
 everywhere in the product. If their color would differ a lot this
 would require more cognitive affords from the user.
 
-### Speed up development
+### 🏎 Speed up development
 
 Users of the library should be faster when using it then they'd be without it.
 
@@ -80,7 +80,7 @@ Users of the library should be faster when using it then they'd be without it.
 
 > How should processes and mindsets look like to be effective?
 
-### Treat it as if it were open source
+### 🐙 Treat it as if it were open source
 
 I saw the greatest success when people work with the library as if
 they were creating, contributing to, or using an open source project
@@ -94,7 +94,7 @@ If you never maintained or contributed to an open source project that's fine.
 Maybe find someone who did or just behave sensible and mind the potential consumers
 and co-maintainers.
 
-### Don't get too fixated with nomenclature
+### 👮 Don't get too fixated with nomenclature
 
 The most famous methodology for design systems is probably [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/). And though I think there is a great amount of guidance
 you can get out of that remember that a component library is a living
@@ -107,16 +107,16 @@ Dare giving components a suboptimal name or put them in the "wrong" category.
 The most important thing is that everybody (design and development) is on the
 same page and uses a common language.
 
-### Don't require everything to be in the library
+### ❄️ Don't require everything to be in the library
 
 You want to allow projects to have their own components and maybe even
 variants of elements in the library. In a living system, evolution must also occur.
 And a process that is too strict hinders product development instead of helping it.
 
-> ❄️ I still like to call these one-of components "snowflakes", a term the team behind
+> I still like to call these one-of components "snowflakes", a term the team behind
 > [XINGs](https://www.xing.com/en) ui system came up with.
 
-### Create different integration levels
+### 🔌 Create different integration levels
 
 In order to support rapid prototyping and to prevent locking your company in
 a narrow tech choice I strongly recommend maintaining different integration
@@ -171,7 +171,7 @@ most common product development environments.
 > not in the library even when it requires a little more boilerplate on the
 > consumer side.
 
-### Write documentation for users
+### 📜 Write documentation for users
 
 There is this [great article from Brad Frost about the difference between storefront and workshop documentation](https://bradfrost.com/blog/post/the-workshop-and-the-storefront/).
 
@@ -187,7 +187,7 @@ So with that in mind, and the fact that the library is of little worth when
 nobody uses it I advise to have an up to date storefront. (Doesn't mean you
 can't also have a workshop).
 
-### Minimize dependencies
+### 👜 Minimize dependencies
 
 From my personal experience managing external dependencies of a modern web project
 is one of the most painful an challenging tasks. It's of high worth when
@@ -198,7 +198,7 @@ up to date.
 There is no golden rule here but I'd recommend using as little dependencies
 that might interfere with consuming projects as possible.
 
-### Thoughtful release management
+### 🚀 Thoughtful release management
 
 Ideally whenever you release an update to the library, users can simply
 install the latest version and ship it. 🚀
@@ -216,7 +216,7 @@ you should consider it a breaking change – meaning users of the library
 must be informed and provided with straight forward instructions
 on how to migrate.
 
-### Consider Tree Shaking
+### 🌳 Consider Tree Shaking
 
 Your library will most likely include more components and helpers
 than any one project will need to use. So there should be tooling at hand
