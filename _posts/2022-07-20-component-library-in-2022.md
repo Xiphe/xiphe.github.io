@@ -12,6 +12,10 @@ description: Why and how I'd create a component library in 2022
 Hi I'm Hannes and a few days ago I found myself looking into a rabbit-whole
 I've been in quite a few times.
 
+{% capture content %}
+
+#### Sidetrack: Why I'm writing this
+
 About 7 years ago when component libraries were just about to become a thing
 I was part of a small team that drastically increased development speed and unified
 the UI/UX of [Jimdo](https://www.jimdo.com/) by creating a UI library that
@@ -30,6 +34,12 @@ a component library today, mid 2022.
 
 Ready? Ok let's go 🚀
 
+{% endcapture %}
+
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
 ## 1. Why?
 
 > Why should I build a component library in 2022?
@@ -40,7 +50,7 @@ most powerful tools they can utilize to make communication as easy as possible.
 
 ### 💡 Document Decisions
 
-> Each component is a documentation of all design and development decisions related to it.
+**Each component is a documentation of all design and development decisions leading to it.**
 
 The creation process may vary, but in the end there is one component
 that has been approved by both development and design.
@@ -50,11 +60,9 @@ When someone is not entirely happy with a component they can use the current
 state of the library as a reference point and propose improvements
 based on that.
 
-### 🧑‍🎨 Unify UI/UX of the product
+### 🥳 Unify UI/UX of the product
 
-> Users of your product will subconsciously learn its UX patterns and apply it
-> to other parts of the product. When these patterns match, the user is effective
-> and happy.
+**Users of your product will subconsciously learn its UX patterns and apply it to other parts of the product. When these patterns match, the user is effective and happy.**
 
 A widely adopted component library is the best way to get there.
 
@@ -64,7 +72,7 @@ would require more cognitive affords from the user.
 
 ### 🏎 Speed up development
 
-Users of the library should be faster when using it then they'd be without it.
+**Users of the library should be faster when using it then they'd be without it.**
 
 "Fast" is a pretty diffuse term in product development... what I mean is:
 
@@ -74,25 +82,33 @@ Users of the library should be faster when using it then they'd be without it.
    speak the same language and can refer to the library
 3. Applying new UI/UX developments/fixes to old code should be a simple task
    that can be done by someone who does not know the old code at all.
-4. The library should never get "in the way" of day to day product development
 
 ## How?
 
-> How should processes and mindsets look like to be effective?
+> How should I approach building a library to be effective?
 
 ### 🐙 Treat it as if it were open source
 
-I saw the greatest success when people work with the library as if
+I saw the greatest success when people work with a company internal library as if
 they were creating, contributing to, or using an open source project
-(just that it's open to the whole company instead of the whole world).
+_(only that this one is "just" open to the whole company instead of the whole world)_.
 
 With that in mind it comes natural to document everything properly, to be
 inclusive to everyone, to work with issues and pull requests, to be mindful with
-API changes...
+API changes... I'll go into a few of these in a more detail later.
 
-If you never maintained or contributed to an open source project that's fine.
-Maybe find someone who did or just behave sensible and mind the potential consumers
-and co-maintainers.
+{% capture content %}
+
+Don't worry in case you never maintained or contributed to an open source project, that's fine.  
+I cover the most important parts later in this article. Just behave sensible,
+remember [why the project exists](#1-why) and be respectful to users and co-maintainers.
+
+{% endcapture %}
+
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
 
 ### 👮 Don't get too fixated with nomenclature
 
@@ -100,10 +116,10 @@ The most famous methodology for design systems is probably [Atomic Design](https
 you can get out of that remember that a component library is a living
 system.
 
-Everything can be changed, especially in the beginning.
-_(Later on be careful when renaming API in order to keep the amount of breaking changes low)_
+Everything can be changed, especially in the beginning.  
+<small><em>Later on be careful when renaming API in order to keep the amount of breaking changes low<a href="-thoughtful-release-management"><sup>*</sup></em></small>
 
-Dare giving components a suboptimal name or put them in the "wrong" category.
+Dare giving components a suboptimal name or put them in the _wrong_ category.
 The most important thing is that everybody (design and development) is on the
 same page and uses a common language.
 
@@ -113,8 +129,7 @@ You want to allow projects to have their own components and maybe even
 variants of elements in the library. In a living system, evolution must also occur.
 And a process that is too strict hinders product development instead of helping it.
 
-> I still like to call these one-of components "snowflakes", a term the team behind
-> [XINGs](https://www.xing.com/en) ui system came up with.
+> I still like to call these one-of components "snowflakes", a label coined by the team behind [XINGs](https://www.xing.com/en) ui system.
 
 ### 🔌 Create different integration levels
 
@@ -132,7 +147,7 @@ Provide Colors, Spacings, Typography settings and maybe also mixins on this leve
 
 #### Level 2: CSS + HTML
 
-> 🤔 Think plain [Bootstrap](https://getbootstrap.com/).
+**🤔 Think plain [Bootstrap](https://getbootstrap.com/).**
 
 Level 2 uses the values provided by the CSS Preprocessor and
 provides static components that implement the **look** of your UI design.
@@ -141,20 +156,21 @@ The web platform uses CSS and HTML for UI, there's no way around it and
 therefore integrating here is tremendously valuable.
 
 Create a stylesheet that unlocks your components in any page by simply adding a
-`<link />`.
+`<link />`.  
 Even when your development writes no single line of plain/html and uses
 ReactJS only, Marketing & Support teams use low-/no-code solutions, Growth teams want to
 try out some crazy new stuff, Companies get acquired that had build their
-awesome product with Rails and now should adopt your look fast...
-All these boil down to HTML/CSS and most likely support serving css file.
+awesome product with Rails and now should adopt your look fast...  
+
+All of these use HTML/CSS in the end and most likely support serving css file.
 
 #### Level 3: Framework
 
 This level abstracts specific html structure and detailed class names and
 should get really close to the language that is actually spoken between
-design and development. When someone says "Can you please show a centered modal
-with a destructive button saying 'Delete!'?" on the framework integration level
-it should boil down to
+design and development.  
+When someone says "Can you please create a centered modal with a destructive button saying 'Delete!'?",
+on the framework integration level it should boil down to something like
 
 ```tsx
 <Modal align="modal-center">
@@ -166,26 +182,51 @@ It uses the static components provided by the HTML + CSS level and arguments
 them with **behaviour**, makes them accessible and easy to work with in your
 most common product development environments.
 
-> ⚠️ Make sure that every state is accessible and changeable from outside the
-> component. Most state is best managed in the products using the library and
-> not in the library even when it requires a little more boilerplate on the
-> consumer side.
+{% capture content %}
+
+#### Sidetrack: Component State
+
+⚠️ Make sure that every state is accessible and changeable from outside the
+component. Most state is best managed in the products using the library rather
+then in the components even when it requires a little more boilerplate on the
+consumer side.
+
+{% endcapture %}
+
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
+
+
 
 ### 📜 Write documentation for users
 
 There is this [great article from Brad Frost about the difference between storefront and workshop documentation](https://bradfrost.com/blog/post/the-workshop-and-the-storefront/).
 
-When comparing the most popular UI library tools [docz](https://www.docz.site/)
-and [Storybook](https://storybook.js.org/), the latter is a workshop: It supports
-developers to build great components. Docz helps you build a storefront:
-A place where consumers can learn about the library concepts, browse components
-without the need to understand all underlying details.
+Let's comparing the most popular UI library tools 
 
-> ℹ️ [Figma](https://figma.com/) is also a workshop
+- [docz](https://www.docz.site/)
+  Helps you build a **storefront**: A place where consumers can learn about the
+  library concepts and browse components without needing to understand all underlying details.
+- [Storybook](https://storybook.js.org/)
+  This is a **workshop**: It supports developers at building great components.
+
+
+{% capture content %}
+
+ℹ️ [Figma](https://figma.com/) is also a workshop
+
+{% endcapture %}
+
+<div class="sidetrack">
+{{ content | markdownify }}
+</div>
+
 
 So with that in mind, and the fact that the library is of little worth when
-nobody uses it I advise to have an up to date storefront. (Doesn't mean you
-can't also have a workshop).
+nobody uses it I advise to have an up to date storefront. 
+_(Doesn't mean you can't also have a workshop)_.
 
 ### 👜 Minimize dependencies
 
