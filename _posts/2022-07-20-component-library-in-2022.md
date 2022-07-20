@@ -51,11 +51,12 @@ most powerful tools they can utilize to make communication as easy as possible.
 
 ### 💡 Document Decisions
 
-**Each component is a documentation of all design and development decisions leading to it.**
+**Each component documents of all design and development decisions leading to it.**
 
 The creation process may vary, but in the end there is one component
 that has been approved by both development and design.
-Thereby creating confidence in users of the library.
+So users can confidently use it, knowing that they use the latest state and
+when needed also can find out which decisions lead to it.
 
 When someone is not entirely happy with a component they can use the current
 state of the library as a reference point and propose improvements
@@ -67,9 +68,10 @@ based on that.
 
 A widely adopted component library is the best way to get there.
 
-Think destructive buttons. They should have the same alarming color
-everywhere in the product. If their color would differ a lot this
-would require more cognitive affords from the user.
+If you fail to deliver a coherent experience, for example when the colors
+of your destructive buttons vary a lot across the system, navigating requires
+more cognitive affords from the user which can be exhausting and lead to unhappy
+users.
 
 ### 🏎 Speed up development
 
@@ -90,13 +92,13 @@ would require more cognitive affords from the user.
 
 ### 🐙 Treat it as if it were open source
 
-I saw the greatest success when people work with a company internal library as if
-they were creating, contributing to, or using an open source project
+I saw the greatest success when people maintain, contribute and use a company 
+internal library as if were an open source project
 _(only that this one is "just" open to the whole company instead of the whole world)_.
 
 With that in mind it comes natural to document everything properly, to be
 inclusive to everyone, to work with issues and pull requests, to be mindful with
-API changes... I'll go into a few of these in a more detail later.
+API changes, etc...
 
 {% capture content %}
 
@@ -118,7 +120,7 @@ you can get out of that remember that a component library is a living
 system.
 
 Everything can be changed, especially in the beginning.  
-<small><em>Later on be careful when renaming API in order to keep the amount of breaking changes low<a href="-thoughtful-release-management"><sup>*</sup></em></small>
+<small><em>Later on be careful when renaming API in order to keep the amount of breaking changes low<a href="-thoughtful-release-management"><sup>*</sup></a></em></small>
 
 Dare giving components a suboptimal name or put them in the _wrong_ category.
 The most important thing is that everybody (design and development) is on the
