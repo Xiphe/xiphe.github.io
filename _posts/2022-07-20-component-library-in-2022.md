@@ -18,13 +18,14 @@ I've been in quite a few times.
 
 About 7 years ago when component libraries were just about to become a thing
 I was part of a small team that drastically increased development speed and unified
-the UI/UX of [Jimdo](https://www.jimdo.com/) by creating a UI library that
-got adopted by all product teams. After that I was able to take what we've
-learned there and apply it to a bunch of other companies.
+the UI/UX of [Jimdo](https://www.jimdo.com/) by creating a component library along
+with a strategy on how to get adoption and support from all product teams.  
+After that I was able to take what we've learned at Jimdo and apply it to 
+new and existing design systems a bunch of other companies.
 
 In the past 2 Years I've been more on the product side of things but now
 [my employer musicube](https://www.musicu.be/en/) was acquired by [songtradr](https://www.songtradr.com/)
-and the design and development here is just on the verge of creating
+and the design and development teams here are just on the verge of creating
 a component library.
 
 That's the reason I thought it might be cool to take everything I've learned
