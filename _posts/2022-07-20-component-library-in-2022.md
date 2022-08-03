@@ -210,7 +210,7 @@ There is this [great article from Brad Frost about the difference between storef
 
 Let's comparing the most popular UI library tools 
 
-- [docz](https://www.docz.site/)
+- [Styleguidist](https://github.com/styleguidist/)
   Helps you build a **storefront**: A place where consumers can learn about the
   library concepts and browse components without needing to understand all underlying details.
 - [Storybook](https://storybook.js.org/)
@@ -310,7 +310,7 @@ have huge adoption rates and support the requirements I've set out above.
 - A dedicated [Slack](https://slack.com/) channel where everyone is invited to ask questions and connect
 - A [GitHub](https://github.com/new) repo to organize and communicate in a structured way
 - [Scss](https://sass-lang.com/) to create a [variable file similar to bootstraps](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) (but strapped down a lot) and one or more stylesheets for the component styles
-- [docz](https://www.docz.site/) to create user facing documentation with example html (and later React) for all components
+- [styleguidist](https://github.com/styleguidist/) to create user facing documentation with example html (and later React) for all components
 - [TypeScript](https://www.typescriptlang.org/) to implement typed components for [your framework here]
 - [esbuild](https://esbuild.github.io/) or [Vite](https://vitejs.dev/) to create tree shakable bundles of the javascript code
 - [semantic release](https://github.com/semantic-release/semantic-release) to create
